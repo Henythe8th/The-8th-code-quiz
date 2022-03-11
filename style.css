@@ -1,3 +1,20 @@
-.btn {
-    border-radius: 35px;
+.body{
+    background: rgb(3, 143, 3);
+}
+
+.Startbtn{
+    background-color: aqua;
+    position: relative;
+    top: 40%;
+    left: 50%;
+}
+
+button{
+    top: 40px;
+    right: 100px;
+}
+
+.Startbtn button{
+    font-size: 30px;
+
 }
