@@ -1,12 +1,21 @@
-.body{
-    background: rgb(3, 143, 3);
+body{
+    background-image: url("./assets/IMG_6821.jpg");
+    background-size: cover;
+    width: 100vw;
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+main{
+    
 }
 
 .Startbtn{
     background-color: aqua;
-    position: relative;
+    position: absolute;
     top: 40%;
-    left: 50%;
+    left: 85%;
+    margin: 50px;
 }
 
 button{
@@ -15,6 +24,9 @@ button{
 }
 
 .Startbtn button{
-    font-size: 30px;
+    font-size: 50px;
+    top: 40px;
+    left: 100px;
+
 
 }
